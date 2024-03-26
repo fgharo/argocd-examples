@@ -16,7 +16,7 @@ spec:
       containers:
         - name: container
           image: >-
-            image-registry.openshift-image-registry.svc:5000/openshift/httpd:2.4-el8
+            image-registry.openshift-image-registry.svc:5000/openshift/httpd:2.4-el7
           ports:
             - containerPort: 8080
               protocol: TCP
